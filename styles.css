@@ -41,6 +41,7 @@ body{
     border-radius: 20px;
 }
 img{
+    padding: 20px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -48,22 +49,23 @@ img{
 }
 .container>h1{
     margin: 0 ;
-    color: var(--Stone-600);
+    color: var(--Stone-900);
     font-weight: 100;
 }
 .recipe p{
-    font-size: .8rem;
+    font-size: .7rem;
     color: var(--Stone-600);
 }
 .time{
     background-color: var(--Rose-50);
-    padding: 6px;
+    padding: 20px;
     border-radius: 10px;
     font-family: 'Outfit', sans-serif;
     color: var(--Stone-600);
 }
 .time>span{
     color: var(--Rose-800);
+    font-weight: 600;
 }
 
 .time>ul{
@@ -72,8 +74,9 @@ img{
     line-height: 1.7rem;
 }
 
-.ingredients>span{
+.ingredients>h1, .instruct>h1{
     color: var(--Brown-800);
+    font-weight: 400;
 }
 .ingredients>ul{
     font-size: .9rem;
@@ -82,15 +85,15 @@ img{
     color: var(--Stone-600);
     list-style: inside;
 }
-.instruct>h1{
-    color: var(--Brown-800);
-    font-weight: 400;
-}
-.instruct>ol{
-    line-height: 2rem;
-    color: var(--Stone-600);
+
+ol{
+    line-height: 1.2rem;
     font-family: 'Outfit';
-    font-size: .9rem;
+    font-size: .7rem;
+}
+l::marker{
+    list-style: decimal;
+    color: var(--Brown-800);
 }
 .nutrition{
     display: flex;
