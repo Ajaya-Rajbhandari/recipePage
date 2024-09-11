@@ -75,7 +75,7 @@ body{
     padding-left: 18px;
 }
 
-.ingredients>h1, .instruct>h1{
+.ingredients>h2, .instruct>h2{
     color: var(--Brown-800);
     font-weight: 400;
 }
@@ -110,7 +110,7 @@ body{
     align-items: stretch;
     justify-content: flex-start;
 }
-.nutrition>h1{
+.nutrition>h2{
     color: var(--Brown-800);
     font-weight: 400;
 }
