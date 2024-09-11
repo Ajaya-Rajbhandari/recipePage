@@ -24,8 +24,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [](https://github.com/Ajaya-Rajbhandari/recipePage)
-- Live Site URL: [Add live site URL here](https://recipe-page-azure-seven.vercel.app)
+- Solution URL: [Github.com/Ajaya-Rajbhandari/recipePage](https://github.com/Ajaya-Rajbhandari/recipePage)
+- Live Site URL: [Recipe Page ](https://recipe-page-azure-seven.vercel.app)
 
 ## My process
 
@@ -51,7 +51,6 @@ I also learned how to use CSS grid to create a responsive layout.```html
       <th>Carb</th>
       <td>0g</td>
     </tr>
-
     <tr>
       <th>Protein</th>
       <td>20g</td>
