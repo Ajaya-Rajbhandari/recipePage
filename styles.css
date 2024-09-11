@@ -72,6 +72,7 @@ body{
     list-style-type: disc;
     font-size: .9rem;
     line-height: 1.7rem;
+    padding-left: 18px;
 }
 
 .ingredients>h1, .instruct>h1{
@@ -84,6 +85,10 @@ body{
     font-family: 'Outfit', sans-serif;
     color: var(--Stone-600);
     list-style: inside;
+    padding-left: 5px;
+}
+.instruct ol{
+    padding-left: 13px;
 }
 
 .instruct ol li{
@@ -92,7 +97,7 @@ body{
     font-size: .7rem;
     color: var(--Stone-600);
     margin-top: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
 }
  .instruct ol li::marker{
     color: var(--Brown-800);
