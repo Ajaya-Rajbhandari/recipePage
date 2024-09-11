@@ -40,14 +40,14 @@ body{
     background-color: var(--color-white);
     border-radius: 20px;
 }
-img{
-    padding: 20px;
+.container>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 .container>h1{
+    padding-top: 20px;
     margin: 0 ;
     color: var(--Stone-900);
     font-weight: 100;
@@ -86,15 +86,19 @@ img{
     list-style: inside;
 }
 
-ol{
+.instruct ol li{
     line-height: 1.2rem;
     font-family: 'Outfit';
     font-size: .7rem;
+    color: var(--Stone-600);
+    margin-top: 5px;
+    padding-left: 15px;
 }
-l::marker{
-    list-style: decimal;
+ .instruct ol li::marker{
     color: var(--Brown-800);
+    font-weight: 900;
 }
+
 .nutrition{
     display: flex;
     flex-direction: column;
@@ -102,9 +106,11 @@ l::marker{
     justify-content: flex-start;
 }
 .nutrition>h1{
-    color: var(--Rose-800);}
+    color: var(--Brown-800);
+    font-weight: 400;
+}
 .nutrition>p{
-    font-size: .8rem;
+    font-size: .7rem;
     color: var(--Stone-600);
 }
 
@@ -124,16 +130,16 @@ color: var(--Stone-600);
  th,td{
     text-align: left;
     align-items: center;
-    line-height: 2.5rem;
-    border-bottom: 1px solid var(--Stone-100);
+    line-height: 2.9rem;
+    border-bottom: 1px solid var(--Stone-150);
  }
  th{
-    font-weight: normal;
+    font-weight: 600;
     padding-left: 40px;
  }
  td{
     color: var(--Brown-800);
-    font-weight: 800;
+    font-weight: 900;
     padding-right: 40px;
  }
 tr:last-child td, tr:last-child th{
